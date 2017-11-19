@@ -1,0 +1,9 @@
+.list-item {
+	display: block;
+	text-decoration: none;
+	transition: background .3s ease;
+
+	&:hover, &:focus {
+		background-color: darken(white, 7%);
+	}
+}

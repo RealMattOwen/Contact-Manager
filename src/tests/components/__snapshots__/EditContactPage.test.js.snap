@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render EditContactPage correctly 1`] = `
+<div>
+  <AppBar
+    iconElementLeft={
+      <IconButton
+        disableTouchRipple={false}
+        disabled={false}
+        iconStyle={Object {}}
+        onClick={[Function]}
+        tooltipPosition="bottom-center"
+        touch={false}
+      >
+        <NavigationArrowBack />
+      </IconButton>
+    }
+    iconElementRight={
+      <IconButton
+        disableTouchRipple={false}
+        disabled={false}
+        iconStyle={Object {}}
+        onClick={[Function]}
+        tooltipPosition="bottom-center"
+        touch={false}
+      >
+        <ActionDone />
+      </IconButton>
+    }
+    showMenuIconButton={true}
+    title="Edit contact"
+    zDepth={1}
+  />
+  <Paper
+    circle={false}
+    rounded={false}
+    style={
+      Object {
+        "display": "inline-block",
+        "textAlign": "center",
+      }
+    }
+    transitionEnabled={true}
+    zDepth={1}
+  >
+    <form
+      id="contact-details"
+    >
+      <TextField
+        disabled={false}
+        floatingLabelFixed={false}
+        fullWidth={false}
+        hintText="First name"
+        multiLine={false}
+        onChange={[Function]}
+        rows={1}
+        type="text"
+        underlineShow={true}
+        value="Matt"
+      />
+      <TextField
+        disabled={false}
+        floatingLabelFixed={false}
+        fullWidth={false}
+        hintText="Last name"
+        multiLine={false}
+        onChange={[Function]}
+        rows={1}
+        type="text"
+        underlineShow={true}
+        value="Owen"
+      />
+      <TextField
+        disabled={false}
+        floatingLabelFixed={false}
+        fullWidth={false}
+        hintText="Age"
+        multiLine={false}
+        onChange={[Function]}
+        rows={1}
+        type="text"
+        underlineShow={true}
+        value={18}
+      />
+      <RaisedButton
+        disabled={false}
+        fullWidth={false}
+        label="Remove"
+        labelPosition="after"
+        onClick={[Function]}
+        primary={false}
+        secondary={false}
+        style={
+          Object {
+            "margin": 12,
+          }
+        }
+      />
+    </form>
+  </Paper>
+</div>
+`;

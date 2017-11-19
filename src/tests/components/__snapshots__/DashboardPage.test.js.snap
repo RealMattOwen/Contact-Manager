@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render DashboardPage correctly with contacts 1`] = `
+<div>
+  <AppBar
+    showMenuIconButton={false}
+    title="Contacts"
+    zDepth={1}
+  />
+  <List>
+    <div
+      key="1"
+    >
+      <Link
+        className="list-item"
+        replace={false}
+        to="/edit/1"
+      >
+        <ListItem
+          autoGenerateNestedIndicator={true}
+          containerElement="span"
+          disableKeyboardFocus={false}
+          disabled={true}
+          initiallyOpen={false}
+          insetChildren={false}
+          leftAvatar={
+            <Avatar
+              size={40}
+              style={
+                Object {
+                  "fontSize": 18,
+                }
+              }
+            >
+              MO
+            </Avatar>
+          }
+          nestedItems={Array []}
+          nestedLevel={0}
+          onKeyboardFocus={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onNestedListToggle={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          open={null}
+          primaryTogglesNestedList={false}
+          secondaryTextLines={1}
+        >
+          Matt
+           
+          Owen
+          , 
+          18
+        </ListItem>
+      </Link>
+      <Divider
+        inset={false}
+      />
+    </div>
+  </List>
+  <Link
+    replace={false}
+    to="/add"
+  >
+    <FloatingActionButton
+      disabled={false}
+      mini={false}
+      secondary={false}
+      style={
+        Object {
+          "bottom": 20,
+          "left": "auto",
+          "margin": 0,
+          "position": "fixed",
+          "right": 20,
+          "top": "auto",
+        }
+      }
+      zDepth={2}
+    >
+      <SocialPersonAdd />
+    </FloatingActionButton>
+  </Link>
+</div>
+`;
+
+exports[`should render DashboardPage correctly with no contacts 1`] = `
+<div>
+  <AppBar
+    showMenuIconButton={false}
+    title="Contacts"
+    zDepth={1}
+  />
+  <List>
+    <div>
+      <ListItem
+        autoGenerateNestedIndicator={true}
+        containerElement="span"
+        disableKeyboardFocus={false}
+        disabled={true}
+        initiallyOpen={false}
+        insetChildren={false}
+        nestedItems={Array []}
+        nestedLevel={0}
+        onKeyboardFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onNestedListToggle={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        open={null}
+        primaryTogglesNestedList={false}
+        secondaryTextLines={1}
+      >
+        No contacts
+      </ListItem>
+    </div>
+  </List>
+  <Link
+    replace={false}
+    to="/add"
+  >
+    <FloatingActionButton
+      disabled={false}
+      mini={false}
+      secondary={false}
+      style={
+        Object {
+          "bottom": 20,
+          "left": "auto",
+          "margin": 0,
+          "position": "fixed",
+          "right": 20,
+          "top": "auto",
+        }
+      }
+      zDepth={2}
+    >
+      <SocialPersonAdd />
+    </FloatingActionButton>
+  </Link>
+</div>
+`;
